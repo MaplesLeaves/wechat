@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/shoppingMall/main",
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/userInfo/main",
+    "pages/shoppingMall/messageInfo/main",
+    "pages/index/messageSubmit/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "aqua",
+    "navigationBarTitleText": "个人茶城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/shoppingMall/main",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/counter/main",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/index/main",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/userInfo/main",
+        "text": "我"
+      }
+    ]
+  }
+}
